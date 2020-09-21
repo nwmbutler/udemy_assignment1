@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App.css';
+import './UserOutput.css';
 
 const userOutput = (props) => {
     return (
-         <div>
+         <div className="UserOutput">
             <p>
               {props.username} This is temporary text while setting up
             </p>
