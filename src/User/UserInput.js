@@ -1,11 +1,10 @@
 import React from 'react';
-import '../App.css';
+import './UserInput.css';
 
 const userInput = (props) => {
     return (
-         <div className="Body">
-
-            <input type="text" onChange={props.changed} value={props.currentUser}/>
+        <div className="Box">
+          <input type="text" onChange={props.changed} value={props.currentUser}/>
         </div>
     )
 };
