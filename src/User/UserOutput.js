@@ -8,7 +8,7 @@ const userOutput = (props) => {
               {props.username} This is temporary text while setting up
             </p>
             <p>
-              {props.username} This is a second temporary paragraph
+              This is a second temporary paragraph
             </p>
         </div>
     )
