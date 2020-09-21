@@ -4,9 +4,12 @@ import '../App.css';
 const userOutput = (props) => {
     return (
          <div>
-             <p>
-               
-             </p>
+            <p>
+              {props.username} This is temporary text while setting up
+            </p>
+            <p>
+            {props.username} This is a second temporary paragraph
+            </p>
         </div>
     )
 };

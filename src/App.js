@@ -8,7 +8,8 @@ class App extends Component {
     return (
       <div>
         <UserInput/>
-        <UserOutput/>
+        <UserOutput username="Nick" />
+        <UserOutput username="Kim" />
       </div>
     );
   }
